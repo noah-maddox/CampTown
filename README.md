@@ -7,3 +7,14 @@ to their servers!
 heroku  https://git.heroku.com/pacific-badlands-40112.git (fetch)
 ---> this is where your pushed code goes to when you commit ->
 heroku  https://git.heroku.com/pacific-badlands-40112.git (push)
+
+
+
+
+commands for sending changes to master and deploying:
+
+git add "file changed"
+
+git commit -m "name of commit"
+
+git push heroku master
