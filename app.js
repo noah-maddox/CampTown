@@ -17,3 +17,10 @@ app.get("/campgrounds", function(req, res){
 // app.listen(8080, function(){
 //     console.log("Yelpcamp server has started on port 8080!");
 // });
+
+
+// possible fix to bad port
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, () => {
+    console.log(`Our app is running on port ${ PORT }`);
+});
